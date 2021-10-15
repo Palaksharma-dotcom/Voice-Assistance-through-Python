@@ -1,0 +1,12 @@
+s=0
+while(True):
+    u=input("enter vales")
+    if u=='q':
+        print(f"your bill total is{s}")
+        break
+    else:
+        u=int(u)
+        s+=u
+        print(f"total bill so far{s}")
+
+
